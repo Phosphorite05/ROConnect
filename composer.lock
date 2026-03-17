@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "63028766c4e0986010161b1f1958f00d",
+    "content-hash": "4d9be45ed1a51b64310892e4c31c48de",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
-            "version": "v3.0.3",
+            "version": "v3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bacon/BaconQrCode.git",
-                "reference": "36a1cb2b81493fa5b82e50bf8068bf84d1542563"
+                "reference": "3feed0e212b8412cc5d2612706744789b0615824"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/36a1cb2b81493fa5b82e50bf8068bf84d1542563",
-                "reference": "36a1cb2b81493fa5b82e50bf8068bf84d1542563",
+                "url": "https://api.github.com/repos/Bacon/BaconQrCode/zipball/3feed0e212b8412cc5d2612706744789b0615824",
+                "reference": "3feed0e212b8412cc5d2612706744789b0615824",
                 "shasum": ""
             },
             "require": {
@@ -58,16 +57,11 @@
             "homepage": "https://github.com/Bacon/BaconQrCode",
             "support": {
                 "issues": "https://github.com/Bacon/BaconQrCode/issues",
-                "source": "https://github.com/Bacon/BaconQrCode/tree/v3.0.3"
+                "source": "https://github.com/Bacon/BaconQrCode/tree/v3.0.4"
             },
-            "time": "2025-11-19T17:15:36+00:00"
+            "time": "2026-03-16T01:01:30+00:00"
         },
         {
-=======
-    "content-hash": "18115abc319d27c45d6e10b8a4868bdc",
-    "packages": [
-        {
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "brick/math",
             "version": "0.14.8",
             "source": {
@@ -197,27 +191,6 @@
             "time": "2024-02-09T16:56:22+00:00"
         },
         {
-<<<<<<< HEAD
-            "name": "dasprid/enum",
-            "version": "1.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DASPRiD/Enum.git",
-                "reference": "b5874fa9ed0043116c72162ec7f4fb50e02e7cce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DASPRiD/Enum/zipball/b5874fa9ed0043116c72162ec7f4fb50e02e7cce",
-                "reference": "b5874fa9ed0043116c72162ec7f4fb50e02e7cce",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1 <9.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^7 || ^8 || ^9 || ^10 || ^11",
-                "squizlabs/php_codesniffer": "*"
-=======
             "name": "clue/redis-protocol",
             "version": "v0.3.2",
             "source": {
@@ -236,42 +209,15 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.6 || ^5.7 || ^4.8.36"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-<<<<<<< HEAD
-                    "DASPRiD\\Enum\\": "src/"
-=======
                     "Clue\\Redis\\Protocol\\": "src/"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-<<<<<<< HEAD
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Ben Scholzen 'DASPRiD'",
-                    "email": "mail@dasprids.de",
-                    "homepage": "https://dasprids.de/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP 7.1 enum implementation",
-            "keywords": [
-                "enum",
-                "map"
-            ],
-            "support": {
-                "issues": "https://github.com/DASPRiD/Enum/issues",
-                "source": "https://github.com/DASPRiD/Enum/tree/1.0.7"
-            },
-            "time": "2025-09-16T12:23:56+00:00"
-=======
                 "MIT"
             ],
             "authors": [
@@ -373,7 +319,56 @@
                 }
             ],
             "time": "2025-01-03T16:18:33+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
+        },
+        {
+            "name": "dasprid/enum",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DASPRiD/Enum.git",
+                "reference": "b5874fa9ed0043116c72162ec7f4fb50e02e7cce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DASPRiD/Enum/zipball/b5874fa9ed0043116c72162ec7f4fb50e02e7cce",
+                "reference": "b5874fa9ed0043116c72162ec7f4fb50e02e7cce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1 <9.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7 || ^8 || ^9 || ^10 || ^11",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DASPRiD\\Enum\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Scholzen 'DASPRiD'",
+                    "email": "mail@dasprids.de",
+                    "homepage": "https://dasprids.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP 7.1 enum implementation",
+            "keywords": [
+                "enum",
+                "map"
+            ],
+            "support": {
+                "issues": "https://github.com/DASPRiD/Enum/issues",
+                "source": "https://github.com/DASPRiD/Enum/tree/1.0.7"
+            },
+            "time": "2025-09-16T12:23:56+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -749,8 +744,6 @@
             "time": "2025-03-06T22:45:56+00:00"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "evenement/evenement",
             "version": "v3.0.2",
             "source": {
@@ -798,7 +791,6 @@
             "time": "2023-08-08T05:53:35+00:00"
         },
         {
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "fruitcake/php-cors",
             "version": "v1.4.0",
             "source": {
@@ -1142,18 +1134,6 @@
         },
         {
             "name": "guzzlehttp/psr7",
-<<<<<<< HEAD
-            "version": "2.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/psr7.git",
-                "reference": "718f1ee6a878be5290af3557aeda0c91278361d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/718f1ee6a878be5290af3557aeda0c91278361d9",
-                "reference": "718f1ee6a878be5290af3557aeda0c91278361d9",
-=======
             "version": "2.9.0",
             "source": {
                 "type": "git",
@@ -1164,7 +1144,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/psr7/zipball/7d0ed42f28e42d61352a7a79de682e5e67fec884",
                 "reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -1180,10 +1159,7 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "0.9.0",
-<<<<<<< HEAD
-=======
                 "jshttp/mime-db": "1.54.0.1",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "phpunit/phpunit": "^8.5.44 || ^9.6.25"
             },
             "suggest": {
@@ -1255,11 +1231,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/guzzle/psr7/tree/2.8.1"
-=======
                 "source": "https://github.com/guzzle/psr7/tree/2.9.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -1275,11 +1247,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-03-10T09:55:26+00:00"
-=======
             "time": "2026-03-10T16:41:02+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         },
         {
             "name": "guzzlehttp/uri-template",
@@ -1368,18 +1336,17 @@
             "time": "2025-08-22T14:27:06+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "laravel/fortify",
-            "version": "v1.35.0",
+            "version": "v1.36.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/fortify.git",
-                "reference": "24c5bb81ea4787e0865c4a62f054ed7d1cb7a093"
+                "reference": "cad8bfeb63f6818f173d40090725c565c92651d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/fortify/zipball/24c5bb81ea4787e0865c4a62f054ed7d1cb7a093",
-                "reference": "24c5bb81ea4787e0865c4a62f054ed7d1cb7a093",
+                "url": "https://api.github.com/repos/laravel/fortify/zipball/cad8bfeb63f6818f173d40090725c565c92651d4",
+                "reference": "cad8bfeb63f6818f173d40090725c565c92651d4",
                 "shasum": ""
             },
             "require": {
@@ -1429,21 +1396,9 @@
                 "issues": "https://github.com/laravel/fortify/issues",
                 "source": "https://github.com/laravel/fortify"
             },
-            "time": "2026-02-24T14:00:44+00:00"
+            "time": "2026-03-10T19:59:49+00:00"
         },
         {
-            "name": "laravel/framework",
-            "version": "v12.53.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "f57f035c0d34503d9ff30be76159bb35a003cd1f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f57f035c0d34503d9ff30be76159bb35a003cd1f",
-                "reference": "f57f035c0d34503d9ff30be76159bb35a003cd1f",
-=======
             "name": "laravel/framework",
             "version": "v12.54.1",
             "source": {
@@ -1455,7 +1410,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/325497463e7599cd14224c422c6e5dd2fe832868",
                 "reference": "325497463e7599cd14224c422c6e5dd2fe832868",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -1476,11 +1430,7 @@
                 "guzzlehttp/uri-template": "^1.0",
                 "laravel/prompts": "^0.3.0",
                 "laravel/serializable-closure": "^1.3|^2.0",
-<<<<<<< HEAD
-                "league/commonmark": "^2.7",
-=======
                 "league/commonmark": "^2.8.1",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "league/flysystem": "^3.25.1",
                 "league/flysystem-local": "^3.25.1",
                 "league/uri": "^7.5.1",
@@ -1668,22 +1618,6 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-<<<<<<< HEAD
-            "time": "2026-02-24T14:35:15+00:00"
-        },
-        {
-            "name": "laravel/prompts",
-            "version": "v0.3.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/prompts.git",
-                "reference": "ed8c466571b37e977532fb2fd3c272c784d7050d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/ed8c466571b37e977532fb2fd3c272c784d7050d",
-                "reference": "ed8c466571b37e977532fb2fd3c272c784d7050d",
-=======
             "time": "2026-03-10T20:25:56+00:00"
         },
         {
@@ -1698,7 +1632,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/9f0e371244eedfe2ebeaa72c79c54bb5df6e0176",
                 "reference": "9f0e371244eedfe2ebeaa72c79c54bb5df6e0176",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -1742,11 +1675,6 @@
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/laravel/prompts/tree/v0.3.13"
-            },
-            "time": "2026-02-06T12:17:10+00:00"
-=======
                 "source": "https://github.com/laravel/prompts/tree/v0.3.14"
             },
             "time": "2026-03-01T09:02:38+00:00"
@@ -1829,7 +1757,6 @@
                 "source": "https://github.com/laravel/reverb/tree/v1.8.0"
             },
             "time": "2026-02-21T14:37:48+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         },
         {
             "name": "laravel/serializable-closure",
@@ -2337,22 +2264,6 @@
         },
         {
             "name": "league/uri",
-<<<<<<< HEAD
-            "version": "7.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/uri.git",
-                "reference": "4436c6ec8d458e4244448b069cc572d088230b76"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri/zipball/4436c6ec8d458e4244448b069cc572d088230b76",
-                "reference": "4436c6ec8d458e4244448b069cc572d088230b76",
-                "shasum": ""
-            },
-            "require": {
-                "league/uri-interfaces": "^7.8",
-=======
             "version": "7.8.1",
             "source": {
                 "type": "git",
@@ -2367,7 +2278,6 @@
             },
             "require": {
                 "league/uri-interfaces": "^7.8.1",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "php": "^8.1",
                 "psr/http-factory": "^1"
             },
@@ -2440,11 +2350,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/thephpleague/uri/tree/7.8.0"
-=======
                 "source": "https://github.com/thephpleague/uri/tree/7.8.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -2452,22 +2358,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-01-14T17:24:56+00:00"
-        },
-        {
-            "name": "league/uri-interfaces",
-            "version": "7.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/uri-interfaces.git",
-                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
-                "reference": "c5c5cd056110fc8afaba29fa6b72a43ced42acd4",
-=======
             "time": "2026-03-15T20:22:25+00:00"
         },
         {
@@ -2482,7 +2372,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/uri-interfaces/zipball/85d5c77c5d6d3af6c54db4a78246364908f3c928",
                 "reference": "85d5c77c5d6d3af6c54db4a78246364908f3c928",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -2545,11 +2434,7 @@
                 "docs": "https://uri.thephpleague.com",
                 "forum": "https://thephpleague.slack.com",
                 "issues": "https://github.com/thephpleague/uri-src/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/thephpleague/uri-interfaces/tree/7.8.0"
-=======
                 "source": "https://github.com/thephpleague/uri-interfaces/tree/7.8.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -2557,21 +2442,20 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-01-15T06:54:53+00:00"
+            "time": "2026-03-08T20:05:35+00:00"
         },
         {
             "name": "livewire/blaze",
-            "version": "v1.0.4",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/blaze.git",
-                "reference": "581ee7feff0f594e1e1678a59bda186a2154e335"
+                "reference": "db6005199972dad477df5cb757b64c2294a26663"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/blaze/zipball/581ee7feff0f594e1e1678a59bda186a2154e335",
-                "reference": "581ee7feff0f594e1e1678a59bda186a2154e335",
+                "url": "https://api.github.com/repos/livewire/blaze/zipball/db6005199972dad477df5cb757b64c2294a26663",
+                "reference": "db6005199972dad477df5cb757b64c2294a26663",
                 "shasum": ""
             },
             "require": {
@@ -2614,9 +2498,9 @@
             "description": "A tool for optimizing Blade component performance by folding them into parent templates",
             "support": {
                 "issues": "https://github.com/livewire/blaze/issues",
-                "source": "https://github.com/livewire/blaze/tree/v1.0.4"
+                "source": "https://github.com/livewire/blaze/tree/v1.0.9"
             },
-            "time": "2026-03-01T21:10:57+00:00"
+            "time": "2026-03-15T21:48:16+00:00"
         },
         {
             "name": "livewire/flux",
@@ -2683,9 +2567,6 @@
                 "source": "https://github.com/livewire/flux/tree/v2.13.0"
             },
             "time": "2026-03-03T03:32:35+00:00"
-=======
-            "time": "2026-03-08T20:05:35+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         },
         {
             "name": "livewire/livewire",
@@ -2868,18 +2749,6 @@
         },
         {
             "name": "nesbot/carbon",
-<<<<<<< HEAD
-            "version": "3.11.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "f438fcc98f92babee98381d399c65336f3a3827f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/f438fcc98f92babee98381d399c65336f3a3827f",
-                "reference": "f438fcc98f92babee98381d399c65336f3a3827f",
-=======
             "version": "3.11.3",
             "source": {
                 "type": "git",
@@ -2890,7 +2759,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/6a7e652845bb018c668220c2a545aded8594fbbf",
                 "reference": "6a7e652845bb018c668220c2a545aded8594fbbf",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -2982,11 +2850,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2026-01-29T09:26:29+00:00"
-=======
             "time": "2026-03-11T17:23:39+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         },
         {
             "name": "nette/schema",
@@ -3292,7 +3156,6 @@
             "time": "2026-02-16T23:10:27+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "paragonie/constant_time_encoding",
             "version": "v3.1.3",
             "source": {
@@ -3308,29 +3171,10 @@
             },
             "require": {
                 "php": "^8"
-=======
-            "name": "paragonie/sodium_compat",
-            "version": "v2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "4714da6efdc782c06690bc72ce34fae7941c2d9f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/4714da6efdc782c06690bc72ce34fae7941c2d9f",
-                "reference": "4714da6efdc782c06690bc72ce34fae7941c2d9f",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.1",
-                "php-64bit": "*"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "require-dev": {
                 "infection/infection": "^0",
                 "nikic/php-fuzzer": "^0",
-<<<<<<< HEAD
                 "phpunit/phpunit": "^9|^10|^11",
                 "vimeo/psalm": "^4|^5|^6"
             },
@@ -3338,40 +3182,15 @@
             "autoload": {
                 "psr-4": {
                     "ParagonIE\\ConstantTime\\": "src/"
-=======
-                "phpunit/phpunit": "^7|^8|^9|^10|^11",
-                "vimeo/psalm": "^4|^5|^6"
-            },
-            "suggest": {
-                "ext-sodium": "Better performance, password hashing (Argon2i), secure memory management (memzero), and better security."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "autoload.php"
-                ],
-                "psr-4": {
-                    "ParagonIE\\Sodium\\": "namespaced/"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-<<<<<<< HEAD
                 "MIT"
-=======
-                "ISC"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             ],
             "authors": [
                 {
                     "name": "Paragon Initiative Enterprises",
-<<<<<<< HEAD
                     "email": "security@paragonie.com",
                     "homepage": "https://paragonie.com",
                     "role": "Maintainer"
@@ -3404,7 +3223,55 @@
                 "source": "https://github.com/paragonie/constant_time_encoding"
             },
             "time": "2025-09-24T15:06:41+00:00"
-=======
+        },
+        {
+            "name": "paragonie/sodium_compat",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/sodium_compat.git",
+                "reference": "4714da6efdc782c06690bc72ce34fae7941c2d9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/4714da6efdc782c06690bc72ce34fae7941c2d9f",
+                "reference": "4714da6efdc782c06690bc72ce34fae7941c2d9f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1",
+                "php-64bit": "*"
+            },
+            "require-dev": {
+                "infection/infection": "^0",
+                "nikic/php-fuzzer": "^0",
+                "phpunit/phpunit": "^7|^8|^9|^10|^11",
+                "vimeo/psalm": "^4|^5|^6"
+            },
+            "suggest": {
+                "ext-sodium": "Better performance, password hashing (Argon2i), secure memory management (memzero), and better security."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ],
+                "psr-4": {
+                    "ParagonIE\\Sodium\\": "namespaced/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
                     "email": "security@paragonie.com"
                 },
                 {
@@ -3452,7 +3319,6 @@
                 "source": "https://github.com/paragonie/sodium_compat/tree/v2.5.0"
             },
             "time": "2025-12-30T16:12:18+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         },
         {
             "name": "phpoption/phpoption",
@@ -3530,7 +3396,6 @@
             "time": "2025-12-27T19:41:33+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "pragmarx/google2fa",
             "version": "v9.0.0",
             "source": {
@@ -3583,8 +3448,6 @@
             "time": "2025-09-19T22:51:08+00:00"
         },
         {
-=======
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -4076,8 +3939,6 @@
             "time": "2026-03-06T21:21:28+00:00"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "pusher/pusher-php-server",
             "version": "7.2.7",
             "source": {
@@ -4139,7 +4000,6 @@
             "time": "2025-01-06T10:56:20+00:00"
         },
         {
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -4338,8 +4198,6 @@
             "time": "2025-12-14T04:43:48+00:00"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "ratchet/rfc6455",
             "version": "v0.4.0",
             "source": {
@@ -4929,7 +4787,6 @@
             "time": "2024-06-11T12:45:25+00:00"
         },
         {
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "symfony/clock",
             "version": "v8.0.0",
             "source": {
@@ -7637,7 +7494,6 @@
     ],
     "packages-dev": [
         {
-<<<<<<< HEAD
             "name": "brianium/paratest",
             "version": "v7.19.0",
             "source": {
@@ -7779,8 +7635,6 @@
             "time": "2026-02-07T07:09:04+00:00"
         },
         {
-=======
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "fakerphp/faker",
             "version": "v1.24.1",
             "source": {
@@ -7844,7 +7698,6 @@
             "time": "2024-11-21T13:46:39+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "fidry/cpu-core-counter",
             "version": "1.3.0",
             "source": {
@@ -7906,8 +7759,6 @@
             "time": "2025-08-14T07:29:31+00:00"
         },
         {
-=======
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "filp/whoops",
             "version": "2.18.4",
             "source": {
@@ -8030,7 +7881,6 @@
             "time": "2025-04-30T06:54:44+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "jean85/pretty-package-versions",
             "version": "2.1.1",
             "source": {
@@ -8091,8 +7941,6 @@
             "time": "2025-03-19T14:43:43+00:00"
         },
         {
-=======
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "laravel/pail",
             "version": "v1.2.6",
             "source": {
@@ -8174,18 +8022,6 @@
         },
         {
             "name": "laravel/pint",
-<<<<<<< HEAD
-            "version": "v1.27.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/pint.git",
-                "reference": "54cca2de13790570c7b6f0f94f37896bee4abcb5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/54cca2de13790570c7b6f0f94f37896bee4abcb5",
-                "reference": "54cca2de13790570c7b6f0f94f37896bee4abcb5",
-=======
             "version": "v1.29.0",
             "source": {
                 "type": "git",
@@ -8196,7 +8032,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/bdec963f53172c5e36330f3a400604c69bf02d39",
                 "reference": "bdec963f53172c5e36330f3a400604c69bf02d39",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -8207,15 +8042,6 @@
                 "php": "^8.2.0"
             },
             "require-dev": {
-<<<<<<< HEAD
-                "friendsofphp/php-cs-fixer": "^3.93.1",
-                "illuminate/view": "^12.51.0",
-                "larastan/larastan": "^3.9.2",
-                "laravel-zero/framework": "^12.0.5",
-                "mockery/mockery": "^1.6.12",
-                "nunomaduro/termwind": "^2.3.3",
-                "pestphp/pest": "^3.8.5"
-=======
                 "friendsofphp/php-cs-fixer": "^3.94.2",
                 "illuminate/view": "^12.54.1",
                 "larastan/larastan": "^3.9.3",
@@ -8224,7 +8050,6 @@
                 "nunomaduro/termwind": "^2.4.0",
                 "pestphp/pest": "^3.8.6",
                 "shipfastlabs/agent-detector": "^1.1.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "bin": [
                 "builds/pint"
@@ -8261,11 +8086,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-<<<<<<< HEAD
-            "time": "2026-02-10T20:00:20+00:00"
-=======
             "time": "2026-03-12T15:51:39+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         },
         {
             "name": "laravel/sail",
@@ -8570,23 +8391,22 @@
             "time": "2026-02-17T17:33:08+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "pestphp/pest",
-            "version": "v4.4.1",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "f96a1b27864b585b0b29b0ee7331176726f7e54a"
+                "reference": "5d42e8fe3ae1d9fdf7c9f73ee88138fd30265701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/f96a1b27864b585b0b29b0ee7331176726f7e54a",
-                "reference": "f96a1b27864b585b0b29b0ee7331176726f7e54a",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/5d42e8fe3ae1d9fdf7c9f73ee88138fd30265701",
+                "reference": "5d42e8fe3ae1d9fdf7c9f73ee88138fd30265701",
                 "shasum": ""
             },
             "require": {
                 "brianium/paratest": "^7.19.0",
-                "nunomaduro/collision": "^8.9.0",
+                "nunomaduro/collision": "^8.9.1",
                 "nunomaduro/termwind": "^2.4.0",
                 "pestphp/pest-plugin": "^4.0.0",
                 "pestphp/pest-plugin-arch": "^4.0.0",
@@ -8606,7 +8426,7 @@
                 "pestphp/pest-dev-tools": "^4.1.0",
                 "pestphp/pest-plugin-browser": "^4.3.0",
                 "pestphp/pest-plugin-type-coverage": "^4.0.3",
-                "psy/psysh": "^0.12.20"
+                "psy/psysh": "^0.12.21"
             },
             "bin": [
                 "bin/pest"
@@ -8672,7 +8492,7 @@
             ],
             "support": {
                 "issues": "https://github.com/pestphp/pest/issues",
-                "source": "https://github.com/pestphp/pest/tree/v4.4.1"
+                "source": "https://github.com/pestphp/pest/tree/v4.4.2"
             },
             "funding": [
                 {
@@ -8684,7 +8504,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-17T15:27:18+00:00"
+            "time": "2026-03-10T21:09:12+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -9033,8 +8853,6 @@
             "time": "2025-12-08T00:13:17+00:00"
         },
         {
-=======
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "name": "phar-io/manifest",
             "version": "2.0.4",
             "source": {
@@ -9153,7 +8971,6 @@
             "time": "2022-02-21T01:04:05+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "phpdocumentor/reflection-common",
             "version": "2.2.0",
             "source": {
@@ -9388,19 +9205,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/b015312f28dd75b75d3422ca37dff2cd1a565e8d",
                 "reference": "b015312f28dd75b75d3422ca37dff2cd1a565e8d",
-=======
-            "name": "phpunit/php-code-coverage",
-            "version": "11.0.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "2c1ed04922802c15e1de5d7447b4856de949cf56"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/2c1ed04922802c15e1de5d7447b4856de949cf56",
-                "reference": "2c1ed04922802c15e1de5d7447b4856de949cf56",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -9408,7 +9212,6 @@
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
                 "nikic/php-parser": "^5.7.0",
-<<<<<<< HEAD
                 "php": ">=8.3",
                 "phpunit/php-file-iterator": "^6.0",
                 "phpunit/php-text-template": "^5.0",
@@ -9420,20 +9223,6 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.5.1"
-=======
-                "php": ">=8.2",
-                "phpunit/php-file-iterator": "^5.1.0",
-                "phpunit/php-text-template": "^4.0.1",
-                "sebastian/code-unit-reverse-lookup": "^4.0.1",
-                "sebastian/complexity": "^4.0.1",
-                "sebastian/environment": "^7.2.1",
-                "sebastian/lines-of-code": "^3.0.1",
-                "sebastian/version": "^5.0.2",
-                "theseer/tokenizer": "^1.3.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.5.46"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "suggest": {
                 "ext-pcov": "PHP extension that provides line coverage",
@@ -9442,11 +9231,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "12.5.x-dev"
-=======
-                    "dev-main": "11.0.x-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -9475,11 +9260,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/12.5.3"
-=======
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/11.0.12"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -9499,7 +9280,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-02-06T06:01:44+00:00"
         },
         {
@@ -9521,38 +9301,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2025-12-24T07:01:01+00:00"
-        },
-        {
-            "name": "phpunit/php-file-iterator",
-            "version": "5.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "2f3a64888c814fc235386b7387dd5b5ed92ad903"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/2f3a64888c814fc235386b7387dd5b5ed92ad903",
-                "reference": "2f3a64888c814fc235386b7387dd5b5ed92ad903",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.0-dev"
-=======
-                    "dev-main": "5.1-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -9580,11 +9333,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
                 "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/6.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.1.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -9604,7 +9353,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-02-02T14:04:18+00:00"
         },
         {
@@ -9627,30 +9375,6 @@
             "require-dev": {
                 "ext-pcntl": "*",
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2026-02-02T13:52:54+00:00"
-        },
-        {
-            "name": "phpunit/php-invoker",
-            "version": "5.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-invoker.git",
-                "reference": "c1ca3814734c07492b3d4c5f794f4b0995333da2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-invoker/zipball/c1ca3814734c07492b3d4c5f794f4b0995333da2",
-                "reference": "c1ca3814734c07492b3d4c5f794f4b0995333da2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "ext-pcntl": "*",
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "suggest": {
                 "ext-pcntl": "*"
@@ -9658,11 +9382,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.0-dev"
-=======
-                    "dev-main": "5.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -9689,11 +9409,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-invoker/issues",
                 "security": "https://github.com/sebastianbergmann/php-invoker/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-invoker/tree/6.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/php-invoker/tree/5.0.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -9701,7 +9417,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:58:58+00:00"
         },
         {
@@ -9723,38 +9438,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2024-07-03T05:07:44+00:00"
-        },
-        {
-            "name": "phpunit/php-text-template",
-            "version": "4.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-text-template.git",
-                "reference": "3e0404dc6b300e6bf56415467ebcb3fe4f33e964"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/3e0404dc6b300e6bf56415467ebcb3fe4f33e964",
-                "reference": "3e0404dc6b300e6bf56415467ebcb3fe4f33e964",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "5.0-dev"
-=======
-                    "dev-main": "4.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -9781,11 +9469,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
                 "security": "https://github.com/sebastianbergmann/php-text-template/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-text-template/tree/5.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/php-text-template/tree/4.0.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -9793,7 +9477,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:59:16+00:00"
         },
         {
@@ -9815,38 +9498,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2024-07-03T05:08:43+00:00"
-        },
-        {
-            "name": "phpunit/php-timer",
-            "version": "7.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "3b415def83fbcb41f991d9ebf16ae4ad8b7837b3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/3b415def83fbcb41f991d9ebf16ae4ad8b7837b3",
-                "reference": "3b415def83fbcb41f991d9ebf16ae4ad8b7837b3",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "8.0-dev"
-=======
-                    "dev-main": "7.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -9873,11 +9529,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-timer/issues",
                 "security": "https://github.com/sebastianbergmann/php-timer/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-timer/tree/8.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/php-timer/tree/7.0.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -9885,7 +9537,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:59:38+00:00"
         },
         {
@@ -9900,22 +9551,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/418e06b3b46b0d54bad749ff4907fc7dfb530199",
                 "reference": "418e06b3b46b0d54bad749ff4907fc7dfb530199",
-=======
-            "time": "2024-07-03T05:09:35+00:00"
-        },
-        {
-            "name": "phpunit/phpunit",
-            "version": "11.5.55",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "adc7262fccc12de2b30f12a8aa0b33775d814f00"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/adc7262fccc12de2b30f12a8aa0b33775d814f00",
-                "reference": "adc7262fccc12de2b30f12a8aa0b33775d814f00",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
@@ -9928,7 +9563,6 @@
                 "myclabs/deep-copy": "^1.13.4",
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
-<<<<<<< HEAD
                 "php": ">=8.3",
                 "phpunit/php-code-coverage": "^12.5.3",
                 "phpunit/php-file-iterator": "^6.0.1",
@@ -9947,41 +9581,13 @@
                 "sebastian/version": "^6.0.0",
                 "staabm/side-effects-detector": "^1.0.5"
             },
-=======
-                "php": ">=8.2",
-                "phpunit/php-code-coverage": "^11.0.12",
-                "phpunit/php-file-iterator": "^5.1.1",
-                "phpunit/php-invoker": "^5.0.1",
-                "phpunit/php-text-template": "^4.0.1",
-                "phpunit/php-timer": "^7.0.1",
-                "sebastian/cli-parser": "^3.0.2",
-                "sebastian/code-unit": "^3.0.3",
-                "sebastian/comparator": "^6.3.3",
-                "sebastian/diff": "^6.0.2",
-                "sebastian/environment": "^7.2.1",
-                "sebastian/exporter": "^6.3.2",
-                "sebastian/global-state": "^7.0.2",
-                "sebastian/object-enumerator": "^6.0.1",
-                "sebastian/recursion-context": "^6.0.3",
-                "sebastian/type": "^5.1.3",
-                "sebastian/version": "^5.0.2",
-                "staabm/side-effects-detector": "^1.0.5"
-            },
-            "suggest": {
-                "ext-soap": "To be able to generate mocks based on WSDL files"
-            },
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             "bin": [
                 "phpunit"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "12.5-dev"
-=======
-                    "dev-main": "11.5-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10013,11 +9619,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.12"
-=======
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.55"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -10041,7 +9643,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-02-16T08:34:36+00:00"
         },
         {
@@ -10063,38 +9664,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2026-02-18T12:37:06+00:00"
-        },
-        {
-            "name": "sebastian/cli-parser",
-            "version": "3.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/cli-parser.git",
-                "reference": "15c5dd40dc4f38794d383bb95465193f5e0ae180"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/cli-parser/zipball/15c5dd40dc4f38794d383bb95465193f5e0ae180",
-                "reference": "15c5dd40dc4f38794d383bb95465193f5e0ae180",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "4.2-dev"
-=======
-                    "dev-main": "3.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10118,17 +9692,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/cli-parser/issues",
                 "security": "https://github.com/sebastianbergmann/cli-parser/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/cli-parser/tree/4.2.0"
-=======
-                "source": "https://github.com/sebastianbergmann/cli-parser/tree/3.0.2"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 },
                 {
                     "url": "https://liberapay.com/sebastianbergmann",
@@ -10157,157 +9726,17 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/6a7de5df2e094f9a80b40a522391a7e6022df5f6",
                 "reference": "6a7de5df2e094f9a80b40a522391a7e6022df5f6",
-=======
-                }
-            ],
-            "time": "2024-07-03T04:41:36+00:00"
-        },
-        {
-            "name": "sebastian/code-unit",
-            "version": "3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/code-unit.git",
-                "reference": "54391c61e4af8078e5b276ab082b6d3c54c9ad64"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/code-unit/zipball/54391c61e4af8078e5b276ab082b6d3c54c9ad64",
-                "reference": "54391c61e4af8078e5b276ab082b6d3c54c9ad64",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Collection of value objects that represent the PHP code units",
-            "homepage": "https://github.com/sebastianbergmann/code-unit",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/code-unit/issues",
-                "security": "https://github.com/sebastianbergmann/code-unit/security/policy",
-                "source": "https://github.com/sebastianbergmann/code-unit/tree/3.0.3"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-03-19T07:56:08+00:00"
-        },
-        {
-            "name": "sebastian/code-unit-reverse-lookup",
-            "version": "4.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
-                "reference": "183a9b2632194febd219bb9246eee421dad8d45e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/183a9b2632194febd219bb9246eee421dad8d45e",
-                "reference": "183a9b2632194febd219bb9246eee421dad8d45e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "4.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de"
-                }
-            ],
-            "description": "Looks up which function or method a line of code belongs to",
-            "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/issues",
-                "security": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/security/policy",
-                "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/4.0.1"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sebastianbergmann",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-07-03T04:45:54+00:00"
-        },
-        {
-            "name": "sebastian/comparator",
-            "version": "6.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "2c95e1e86cb8dd41beb8d502057d1081ccc8eca9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2c95e1e86cb8dd41beb8d502057d1081ccc8eca9",
-                "reference": "2c95e1e86cb8dd41beb8d502057d1081ccc8eca9",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-mbstring": "*",
-<<<<<<< HEAD
                 "php": ">=8.3",
                 "sebastian/diff": "^7.0",
                 "sebastian/exporter": "^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.2"
-=======
-                "php": ">=8.2",
-                "sebastian/diff": "^6.0",
-                "sebastian/exporter": "^6.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.4"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "suggest": {
                 "ext-bcmath": "For comparing BcMath\\Number objects"
@@ -10315,11 +9744,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.1-dev"
-=======
-                    "dev-main": "6.3-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10359,11 +9784,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/comparator/tree/7.1.4"
-=======
-                "source": "https://github.com/sebastianbergmann/comparator/tree/6.3.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -10383,7 +9804,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2026-01-24T09:28:48+00:00"
         },
         {
@@ -10398,46 +9818,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/bad4316aba5303d0221f43f8cee37eb58d384bbb",
                 "reference": "bad4316aba5303d0221f43f8cee37eb58d384bbb",
-=======
-            "time": "2026-01-24T09:26:40+00:00"
-        },
-        {
-            "name": "sebastian/complexity",
-            "version": "4.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/complexity.git",
-                "reference": "ee41d384ab1906c68852636b6de493846e13e5a0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/ee41d384ab1906c68852636b6de493846e13e5a0",
-                "reference": "ee41d384ab1906c68852636b6de493846e13e5a0",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^5.0",
-<<<<<<< HEAD
                 "php": ">=8.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "5.0-dev"
-=======
-                    "dev-main": "4.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10461,11 +9854,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/complexity/issues",
                 "security": "https://github.com/sebastianbergmann/complexity/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/complexity/tree/5.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/complexity/tree/4.0.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -10473,7 +9862,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:55:25+00:00"
         },
         {
@@ -10496,39 +9884,11 @@
             "require-dev": {
                 "phpunit/phpunit": "^12.0",
                 "symfony/process": "^7.2"
-=======
-            "time": "2024-07-03T04:49:50+00:00"
-        },
-        {
-            "name": "sebastian/diff",
-            "version": "6.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "b4ccd857127db5d41a5b676f24b51371d76d8544"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/b4ccd857127db5d41a5b676f24b51371d76d8544",
-                "reference": "b4ccd857127db5d41a5b676f24b51371d76d8544",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0",
-                "symfony/process": "^4.2 || ^5"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.0-dev"
-=======
-                    "dev-main": "6.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10561,11 +9921,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/diff/issues",
                 "security": "https://github.com/sebastianbergmann/diff/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/diff/tree/7.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/diff/tree/6.0.2"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -10573,21 +9929,20 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:55:46+00:00"
         },
         {
             "name": "sebastian/environment",
-            "version": "8.0.3",
+            "version": "8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "24a711b5c916efc6d6e62aa65aa2ec98fef77f68"
+                "reference": "7b8842c2d8e85d0c3a5831236bf5869af6ab2a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/24a711b5c916efc6d6e62aa65aa2ec98fef77f68",
-                "reference": "24a711b5c916efc6d6e62aa65aa2ec98fef77f68",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/7b8842c2d8e85d0c3a5831236bf5869af6ab2a11",
+                "reference": "7b8842c2d8e85d0c3a5831236bf5869af6ab2a11",
                 "shasum": ""
             },
             "require": {
@@ -10595,29 +9950,6 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2024-07-03T04:53:05+00:00"
-        },
-        {
-            "name": "sebastian/environment",
-            "version": "7.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "a5c75038693ad2e8d4b6c15ba2403532647830c4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/a5c75038693ad2e8d4b6c15ba2403532647830c4",
-                "reference": "a5c75038693ad2e8d4b6c15ba2403532647830c4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "suggest": {
                 "ext-posix": "*"
@@ -10625,11 +9957,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "8.0-dev"
-=======
-                    "dev-main": "7.2-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10657,11 +9985,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
                 "security": "https://github.com/sebastianbergmann/environment/security/policy",
-<<<<<<< HEAD
-                "source": "https://github.com/sebastianbergmann/environment/tree/8.0.3"
-=======
-                "source": "https://github.com/sebastianbergmann/environment/tree/7.2.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
+                "source": "https://github.com/sebastianbergmann/environment/tree/8.0.4"
             },
             "funding": [
                 {
@@ -10681,8 +10005,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2025-08-12T14:11:56+00:00"
+            "time": "2026-03-15T07:05:40+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -10696,48 +10019,20 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/016951ae10980765e4e7aee491eb288c64e505b7",
                 "reference": "016951ae10980765e4e7aee491eb288c64e505b7",
-=======
-            "time": "2025-05-21T11:55:47+00:00"
-        },
-        {
-            "name": "sebastian/exporter",
-            "version": "6.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "70a298763b40b213ec087c51c739efcaa90bcd74"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/70a298763b40b213ec087c51c739efcaa90bcd74",
-                "reference": "70a298763b40b213ec087c51c739efcaa90bcd74",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-<<<<<<< HEAD
                 "php": ">=8.3",
                 "sebastian/recursion-context": "^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-                "php": ">=8.2",
-                "sebastian/recursion-context": "^6.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.0-dev"
-=======
-                    "dev-main": "6.3-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10780,11 +10075,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/exporter/tree/7.0.2"
-=======
-                "source": "https://github.com/sebastianbergmann/exporter/tree/6.3.2"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -10804,7 +10095,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-09-24T06:16:11+00:00"
         },
         {
@@ -10829,41 +10119,11 @@
             "require-dev": {
                 "ext-dom": "*",
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2025-09-24T06:12:51+00:00"
-        },
-        {
-            "name": "sebastian/global-state",
-            "version": "7.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "3be331570a721f9a4b5917f4209773de17f747d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/3be331570a721f9a4b5917f4209773de17f747d7",
-                "reference": "3be331570a721f9a4b5917f4209773de17f747d7",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "sebastian/object-reflector": "^4.0",
-                "sebastian/recursion-context": "^6.0"
-            },
-            "require-dev": {
-                "ext-dom": "*",
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "8.0-dev"
-=======
-                    "dev-main": "7.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10889,17 +10149,12 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/global-state/issues",
                 "security": "https://github.com/sebastianbergmann/global-state/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/global-state/tree/8.0.2"
-=======
-                "source": "https://github.com/sebastianbergmann/global-state/tree/7.0.2"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
-<<<<<<< HEAD
                 },
                 {
                     "url": "https://liberapay.com/sebastianbergmann",
@@ -10928,48 +10183,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/97ffee3bcfb5805568d6af7f0f893678fc076d2f",
                 "reference": "97ffee3bcfb5805568d6af7f0f893678fc076d2f",
-=======
-                }
-            ],
-            "time": "2024-07-03T04:57:36+00:00"
-        },
-        {
-            "name": "sebastian/lines-of-code",
-            "version": "3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/lines-of-code.git",
-                "reference": "d36ad0d782e5756913e42ad87cb2890f4ffe467a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/d36ad0d782e5756913e42ad87cb2890f4ffe467a",
-                "reference": "d36ad0d782e5756913e42ad87cb2890f4ffe467a",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^5.0",
-<<<<<<< HEAD
                 "php": ">=8.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "4.0-dev"
-=======
-                    "dev-main": "3.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -10993,11 +10219,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/lines-of-code/issues",
                 "security": "https://github.com/sebastianbergmann/lines-of-code/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/lines-of-code/tree/4.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/3.0.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -11005,7 +10227,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:57:28+00:00"
         },
         {
@@ -11029,40 +10250,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2024-07-03T04:58:38+00:00"
-        },
-        {
-            "name": "sebastian/object-enumerator",
-            "version": "6.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
-                "reference": "f5b498e631a74204185071eb41f33f38d64608aa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/f5b498e631a74204185071eb41f33f38d64608aa",
-                "reference": "f5b498e631a74204185071eb41f33f38d64608aa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2",
-                "sebastian/object-reflector": "^4.0",
-                "sebastian/recursion-context": "^6.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.0-dev"
-=======
-                    "dev-main": "6.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -11085,11 +10277,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
                 "security": "https://github.com/sebastianbergmann/object-enumerator/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/object-enumerator/tree/7.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/6.0.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -11097,7 +10285,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:57:48+00:00"
         },
         {
@@ -11119,38 +10306,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2024-07-03T05:00:13+00:00"
-        },
-        {
-            "name": "sebastian/object-reflector",
-            "version": "4.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/object-reflector.git",
-                "reference": "6e1a43b411b2ad34146dee7524cb13a068bb35f9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/6e1a43b411b2ad34146dee7524cb13a068bb35f9",
-                "reference": "6e1a43b411b2ad34146dee7524cb13a068bb35f9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "5.0-dev"
-=======
-                    "dev-main": "4.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -11173,11 +10333,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-reflector/issues",
                 "security": "https://github.com/sebastianbergmann/object-reflector/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/object-reflector/tree/5.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/object-reflector/tree/4.0.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -11185,7 +10341,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T04:58:17+00:00"
         },
         {
@@ -11207,38 +10362,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2024-07-03T05:01:32+00:00"
-        },
-        {
-            "name": "sebastian/recursion-context",
-            "version": "6.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "f6458abbf32a6c8174f8f26261475dc133b3d9dc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/f6458abbf32a6c8174f8f26261475dc133b3d9dc",
-                "reference": "f6458abbf32a6c8174f8f26261475dc133b3d9dc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "7.0-dev"
-=======
-                    "dev-main": "6.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -11269,11 +10397,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
                 "security": "https://github.com/sebastianbergmann/recursion-context/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/recursion-context/tree/7.0.1"
-=======
-                "source": "https://github.com/sebastianbergmann/recursion-context/tree/6.0.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -11293,7 +10417,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-08-13T04:44:59+00:00"
         },
         {
@@ -11315,38 +10438,11 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
-=======
-            "time": "2025-08-13T04:42:22+00:00"
-        },
-        {
-            "name": "sebastian/type",
-            "version": "5.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "f77d2d4e78738c98d9a68d2596fe5e8fa380f449"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/f77d2d4e78738c98d9a68d2596fe5e8fa380f449",
-                "reference": "f77d2d4e78738c98d9a68d2596fe5e8fa380f449",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^11.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.0-dev"
-=======
-                    "dev-main": "5.1-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -11370,11 +10466,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
                 "security": "https://github.com/sebastianbergmann/type/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/type/tree/6.0.3"
-=======
-                "source": "https://github.com/sebastianbergmann/type/tree/5.1.3"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -11394,7 +10486,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-08-09T06:57:12+00:00"
         },
         {
@@ -11413,35 +10504,11 @@
             },
             "require": {
                 "php": ">=8.3"
-=======
-            "time": "2025-08-09T06:55:48+00:00"
-        },
-        {
-            "name": "sebastian/version",
-            "version": "5.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sebastianbergmann/version.git",
-                "reference": "c687e3387b99f5b03b6caa64c74b63e2936ff874"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/c687e3387b99f5b03b6caa64c74b63e2936ff874",
-                "reference": "c687e3387b99f5b03b6caa64c74b63e2936ff874",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-<<<<<<< HEAD
                     "dev-main": "6.0-dev"
-=======
-                    "dev-main": "5.0-dev"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 }
             },
             "autoload": {
@@ -11465,11 +10532,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/version/issues",
                 "security": "https://github.com/sebastianbergmann/version/security/policy",
-<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/version/tree/6.0.0"
-=======
-                "source": "https://github.com/sebastianbergmann/version/tree/5.0.2"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -11477,11 +10540,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-02-07T05:00:38+00:00"
-=======
-            "time": "2024-10-09T05:16:32+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         },
         {
             "name": "staabm/side-effects-detector",
@@ -11611,7 +10670,6 @@
             "time": "2026-02-09T10:14:57+00:00"
         },
         {
-<<<<<<< HEAD
             "name": "ta-tikoma/phpunit-architecture-test",
             "version": "0.8.7",
             "source": {
@@ -11682,30 +10740,13 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/theseer/tokenizer/zipball/7989e43bf381af0eac72e4f0ca5bcbfa81658be4",
                 "reference": "7989e43bf381af0eac72e4f0ca5bcbfa81658be4",
-=======
-            "name": "theseer/tokenizer",
-            "version": "1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "b7489ce515e168639d17feec34b8847c326b0b3c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/b7489ce515e168639d17feec34b8847c326b0b3c",
-                "reference": "b7489ce515e168639d17feec34b8847c326b0b3c",
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
-<<<<<<< HEAD
                 "php": "^8.1"
-=======
-                "php": "^7.2 || ^8.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "type": "library",
             "autoload": {
@@ -11727,11 +10768,7 @@
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "support": {
                 "issues": "https://github.com/theseer/tokenizer/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/theseer/tokenizer/tree/2.0.1"
-=======
-                "source": "https://github.com/theseer/tokenizer/tree/1.3.1"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
             },
             "funding": [
                 {
@@ -11739,7 +10776,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2025-12-08T11:19:18+00:00"
         },
         {
@@ -11803,9 +10839,6 @@
                 "source": "https://github.com/webmozarts/assert/tree/2.1.6"
             },
             "time": "2026-02-27T10:28:38+00:00"
-=======
-            "time": "2025-11-17T20:03:58+00:00"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
         }
     ],
     "aliases": [],
@@ -11817,9 +10850,5 @@
         "php": "^8.2"
     },
     "platform-dev": {},
-<<<<<<< HEAD
-    "plugin-api-version": "2.6.0"
-=======
     "plugin-api-version": "2.9.0"
->>>>>>> 9c8a8b2 (Initialize Laravel WebRTC Video Call project)
 }
